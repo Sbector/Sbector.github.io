@@ -1,9 +1,27 @@
-# Sbector.github.io
+# jekyll-theme-hackcss
 
+[Dead simple CSS framework](http://hackcss.com/) now with Jekyll.
 
-homepage:
-http://sbector.github.io/
+Mobile-ready, modern, stylish, simple.
 
-![alt text](http://i.imgur.com/2i35DTo.jpg)
+## Theme modes
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289321201&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+This theme comes in three modes, which could be configured in `_config.yml`.
+
+![Standard](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/standard.png)
+
+![Dark](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/dark.png)
+
+![Markdown](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/markdown.png)
+
+## Installation
+
+Clone this repo. Create your own website. Easy.
+
+## Configuration
+
+See [docs](https://github.com/wemake-services/jekyll-theme-hackcss/blob/master/docs.md).
+
+## License
+
+GNU PGL 3. See [LICENSE](https://github.com/wemake-services/jekyll-theme-hackcss/blob/3cbe97b71a56a19eba386dd928e125b71e50c71e/LICENSE) for more information.
