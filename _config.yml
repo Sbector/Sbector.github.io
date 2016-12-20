@@ -8,7 +8,7 @@
 # Site settings
 title: in nomia
 description: > # this means to ignore newlines until "baseurl:"
-  A minimalistic theme for Jekyll, based on hack.css
+  Aprenda de mí, si no por mis advertencias, sí al menos por mi ejemplo, lo perligroso de adquirir conocimientos...
 repository: https://github.com/wemake-services/jekyll-theme-hackcss
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: http://sobolevn.github.io  # the base hostname & protocol for your site
@@ -24,7 +24,7 @@ sass:
 theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
-your_name: 
+your_name:
 email: saulbector@gmail.com
 
 navigation:
