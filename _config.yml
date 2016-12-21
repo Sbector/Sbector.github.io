@@ -28,18 +28,19 @@ your_name:
 email: saulbector@gmail.com
 
 navigation:
-  - text: Home
+  - text: inicio
     url: /
-  - text: Docs
-    url: /docs
-  - text: Examples
-    url: /examples
+  - text: archivo
+    url: /archivo
+  - text: proyectos
+    url: /proyectos
 
 projects:
   - name: git-secret
     description: A bash-tool to store your private data inside a git repository.
     link: https://sobolevn.github.io/git-secret
     image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
+    #La imagen es de 432 x 432 px
   - name: awesome-cryptography
     description: A curated list of cryptography resources and links.
     link: https://github.com/sobolevn/awesome-cryptography
@@ -53,8 +54,8 @@ projects:
 
 social:
   - service: github
-    username: sobolevn
-    link: https://github.com/sobolevn
+    username: Sbetor
+    link: https://github.com/Sbector
   - service: twitter
-    username: sobolevn
-    link: https://twitter.com/sobolevn
+    username: anónimo egoísta
+    link: https://twitter.com/MetaPrometeo
