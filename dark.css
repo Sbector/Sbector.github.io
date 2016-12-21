@@ -81,8 +81,8 @@
 	color: #4dd0e1
 }
 .dark .btn.btn-ghost.btn-error:focus, .dark .btn.btn-ghost.btn-error:hover {
-	border-color: #f1f5e6;
-	color: #f1f5e6
+	border-color: #e57373;
+	color: #e57373
 }
 .dark .btn.btn-ghost.btn-warning:focus, .dark .btn.btn-ghost.btn-warning:hover {
 	border-color: #ffb74d;
