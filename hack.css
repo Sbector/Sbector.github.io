@@ -39,8 +39,8 @@ a {
 	border-bottom: 1px solid #f1f5e6
 }
 a:hover {
-	background-color: #ff2e88;
-	color: #fff
+	background-color: #f1f5e6;
+	color: #5e6f8b
 }
 .grid {
 	display: -ms-flexbox;
