@@ -157,7 +157,11 @@ a:hover {
 .hack, .hack blockquote, .hack code, .hack em, .hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack strong {
 	font-size: 1rem;
 	font-style: normal;
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif
+	font-family: monospace
+}
+.hack h2 {
+	font-size: 1.5rem;
+	font-family: monospace
 }
 .hack blockquote, .hack code, .hack em, .hack strong {
 	line-height: 20px
@@ -613,7 +617,7 @@ select.form-control {
 	border-color: #ff9800
 }
 .media:not(:last-child) {
-	margin-bottom: 1.25rem
+	margin-bottom: 1.75rem
 }
 .media-left {
 	padding-right: 1rem

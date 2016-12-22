@@ -9,9 +9,9 @@
 title: in nomia
 description: > # this means to ignore newlines until "baseurl:"
   Aprenda de mí, si no por mis advertencias, sí al menos por mi ejemplo, lo perligroso de adquirir conocimientos...
-repository: https://github.com/wemake-services/jekyll-theme-hackcss
+repository: https://github.com/Sbector/Sbector.github.io
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: http://sobolevn.github.io  # the base hostname & protocol for your site
+url: http://sbector.github.io  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
