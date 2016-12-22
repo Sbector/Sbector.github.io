@@ -1,14 +1,13 @@
-# jekyll-theme-hackcss
+# Homepage Sbector
 
-[Dead simple CSS framework](http://hackcss.com/) now with Jekyll.
+Aprenda de mí, si no por mis advertencias, sí al menos por mi ejemplo, lo perligroso de adquirir conocimientos...
 
-Mobile-ready, modern, stylish, simple.
 
-## Theme modes
+## Archivo
 
-This theme comes in three modes, which could be configured in `_config.yml`.
+Esta es una foto de un antiguo amigo felino.
 
-![Standard](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/standard.png)
+![Tofu](/images/Tofu.jpg)
 
 ![Dark](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/dark.png)
 
