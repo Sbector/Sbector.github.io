@@ -20,7 +20,7 @@ controls = new THREE.OrbitControls(camera, renderer.domElement);
 
 // Modelo
 var loader = new THREE.JSONLoader();
-loader.load('model/cari.json', handle_load);
+loader.load('model/lenin.json', handle_load);
 
 function handle_load(geometry, materials){
   var material = new THREE.MeshNormalMaterial();
