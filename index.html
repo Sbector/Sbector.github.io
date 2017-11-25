@@ -1,75 +1,32 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div>
+	<title>Public Domain Countdown</title>
 
-  <section>
-    <h1>in nomia</h1>
+	<script src="libraries/three.js"></script>
+	<script src="js/OrbitControls.js"></script>
+	<link rel="stylesheet" href="style.css">
 
-    <p>
-      porque después que me convertí, tuve
-      arrepentimiento, y despés que conocí, herí el
-      muslo; me avergoncé, y me confundí, porque llevé la
-      afrenta de mi juventud.
-      <br/>
-      <br/>
-      jeremías 31:19 sagradas escrituras 1569
-      <br/>
-      <br/>
-      <a href:"/">mis mocedades...</a>
-    </p>
-  </section>
 
-  <section>
-    <h2>What is Jekyll?</h2>
 
-    <p>
-      <code>Jekyll</code> is a simple, blog-aware, static site generator
-      perfect for personal, project,
-      or organization sites. Think of it like a
-      file-based CMS, without all the complexity.
-      <code>Jekyll</code> takes your content, renders Markdown
-      and Liquid templates, and spits out a
-      complete, static website ready to be served by Apache,
-      Nginx or another web server.
-      <code>Jekyll</code> is the engine behind GitHub Pages,
-      which you can use to host sites right
-      from your GitHub repositories.
-    </p>
-  </section>
+</head>
+<body>
+	<div id="del-contdown">
+			<h1>Public domain countdown</h1>
+			<div id="clock"></div>
+			<div id="units">
+				<span>Days</span>
+				<span>Hours</span>
+				<span>Minutes</span>
+				<span>Seconds</span>
+			</div>
+	</div>
 
-  <section>
-    <h2>What is hack.css?</h2>
-
-    <p>
-      <code>hack.css</code> is a dead simple css framework. Chech out
-      <a href="http://hackcss.com/">hackcss.com</a> to know more.
-    </p>
-  </section>
-
-  <section>
-    <h2>Getting started</h2>
-
-    <p>
-      <ol>
-        <li>Make sure you have <code>Jekyll</code> up and running</li>
-        <li>Clone
-          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
-        </li>
-        <li>Customize it</li>
-        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
-      </ol>
-
-    </p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-
-    <p>
-      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-    </p>
-  </section>
-
-</div>
+	<script src="js/countdown.js"></script>
+	<script src="js/background.js"></script>
+</body>
+</html>
