@@ -48,6 +48,6 @@ function startTimer(id, deadline){
 
 
 window.onload = function(){
-  var deadline = new Date("December 31, 2020 00:00:00");
+  var deadline = new Date("July 22, 2023 00:00:00");
   startTimer("clock", deadline);
 };
