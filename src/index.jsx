@@ -1,7 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+
 import './styles.css'
+
+console.log(OrbitControls)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
