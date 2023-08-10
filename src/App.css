@@ -9,20 +9,32 @@ body,
 
 .mensaje {
   position: absolute;
-  top: 50%;
+  top: 5%;
   left: 50%;
   text-align: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
 }
 
 .mensaje h1{
-  font-size: 50px;
-  color: rgba(174, 216, 178, 0.7);
+  font-size: 30px;
+  color: rgb(155, 211, 198);
   margin: 0;
 }
 
 .mensaje h2{
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(154, 208, 240, 0.7);
   margin: 0;
+}
+
+.portafolio {
+  position: absolute;
+  bottom: 1%;
+  left: 2%;
+  color:white;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  font-size: 15px;
 }
