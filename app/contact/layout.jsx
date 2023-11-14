@@ -1,12 +1,10 @@
-import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-export default function AboutLayout({children}) {
+export default function AboutLayout({ children }) {
     return (
         <>
-            <Header/>
+            <Header />
             {children}
-            <Footer/>
         </>
     )
 }

@@ -16,7 +16,7 @@ const links = [{
 
 export default function Home() {
   return (
-    <main>
+    <main className='p-24 max-w-3xl m-auto'>
       <ul>
         {links.map(({label,route})=>(
           <li key={label}>

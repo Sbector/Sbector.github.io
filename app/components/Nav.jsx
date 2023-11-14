@@ -20,7 +20,7 @@ const links = [{
 export default function Nav() {
     return (
         <nav>
-            <ul>
+            <ul className="flex justify-between text-sky-500">
                 {links.map(({label,route}) => (
                     <li key={route}>
                         <Link href={route}>{label}</Link>
