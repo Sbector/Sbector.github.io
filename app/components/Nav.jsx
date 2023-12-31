@@ -1,19 +1,19 @@
 import Link from "next/link"
 
 const links = [{
-    label: 'home',
+    label: 'inicio',
     route: './'
 },{
-    label: 'about',
-    route: './about'
+    label: 'acerca de',
+    route: './#about'
 },{
-    label: 'archive',
+    label: 'archivo',
     route: './archive'
 },{
-    label: 'blog',
+    label: 'blog/recursos',
     route: './blog'
 },{
-    label: 'contact',
+    label: 'contacto',
     route: './contact'
 }]
 

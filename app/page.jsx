@@ -1,29 +1,16 @@
-import Link from "next/link";
+import AboutPage from "./about/page";
+import Button from "./components/Button";
+import HomeNav from "./components/HomeNav";
 
-const links = [{
-  label: 'about',
-  route: './about'
-},{
-  label: 'archive',
-  route: './archive'
-},{
-  label: 'blog',
-  route: './blog'
-},{
-  label: 'contact',
-  route: './contact'
-}]
 
 export default function Home() {
   return (
-    <main className='p-24 max-w-3xl m-auto'>
-      <ul>
-        {links.map(({label,route})=>(
-          <li key={label}>
-            <Link href={route}>{label}</Link>
-          </li>
-        ))}
-      </ul>
-    </main>
+    <div>
+      <HomeNav />
+      <main>
+        <AboutPage id="about" />
+      </main>
+      <Button href="#top">inicio</Button>
+    </div>
   )
 }

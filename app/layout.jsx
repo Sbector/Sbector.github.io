@@ -1,6 +1,10 @@
 import './globals.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'sbector',
@@ -9,10 +13,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`bg-zinc-900 text-gray-50 ${inter.className}`}>
       <body>
-        {children}
-        <Footer />
+          {children}
       </body>
     </html>
   )
