@@ -5,12 +5,9 @@ import HomeNav from "./components/HomeNav";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <HomeNav />
-      <main>
-        <AboutPage id="about" />
-      </main>
-      <Button href="#top">inicio</Button>
+      <AboutPage/>
     </div>
   )
 }

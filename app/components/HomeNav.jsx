@@ -5,11 +5,11 @@ const links = [{
     label: 'acerca de',
     route: '#about'
 }, {
+    label: 'contacto',
+    route: '#contacto'
+}, {
     label: 'blog / recursos',
     route: './blog'
-}, {
-    label: 'contacto',
-    route: './contact'
 }]
 
 export default function HomeNav() {
@@ -18,7 +18,7 @@ export default function HomeNav() {
             <nav >
                 <ul className="flex-col justify-center items-start gap-4 inline-flex">
                     {links.map(({ label, route }) => (
-                        <li key={label} className="text-4xl font-semibold uppercase hover:text-green-500">
+                        <li key={label} className="text-4xl font-semibold uppercase hover:text-green-500 hover:-mx-1 transition-all">
                             <Link href={route}>{label}</Link>
                         </li>
                     ))}
