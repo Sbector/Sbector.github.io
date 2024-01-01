@@ -2,10 +2,12 @@ import Link from "next/link";
 
 export default function Button({ href, children, className }) {
     return (
-        <button className={`w-20 bg-slate-500 hover:bg-green-500 rounded-md px-2 ${className}`}>
-            <Link href={href}>
+
+        <Link href={href} className={`w-auto bg-gray-800 hover:bg-green-500 px-2 py-1 ${className}`}>
+            <button>
                 {children}
-            </Link>
-        </button>
+            </button>
+        </Link>
+
     )
 }

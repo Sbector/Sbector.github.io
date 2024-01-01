@@ -8,21 +8,29 @@ import MailIcon from "./icons/MailIcon";
 export default function SocialCard() {
 
     return (
-        <div id="contacto">
-            <Wrapper>
-                <h2 className="text-lg md:text-2xl text-green-300 font-semibold uppercase pb-4">Contáctame</h2>
-                <nav className=" flex flex-wrap-reverse gap-x-2 gap-y-4 h-auto">
-                    <SocialPill href="mailto:sbector.prod@gmail.com">
-                        <MailIcon className="w-6 h-6"/>e-mail
-                    </SocialPill>
-                    <SocialPill href="https://www.linkedin.com/in/saul-becerra-torres">
-                        <LinkedinIcon className="w-6 h-6" />Linkedin
-                    </SocialPill>
-                    <SocialPill href="https://github.com/Sbector">
-                        <GithubIcon className="w-6 h-6" />Github
-                    </SocialPill>
-                </nav>
-            </Wrapper>
+        <div id="contacto" className="
+        py-20 mx-10
+        md:w-[700px] md:mx-auto
+        lg:w-[820px]
+        xl:w-[1024px]
+        ">
+            <h2 className="text-lg text-green-300 font-semibold uppercase pb-6
+                md:text-3xl md:pb-10
+                ">
+                Contáctame
+            </h2>
+            <nav className=" flex flex-wrap gap-2 md:gap-4 h-auto">
+                <SocialPill href="mailto:sbector.prod@gmail.com">
+                    <MailIcon className="w-4 h-4" />e-mail
+                </SocialPill>
+                <SocialPill href="https://www.linkedin.com/in/saul-becerra-torres">
+                    <LinkedinIcon className="w-4 h-4" />Linkedin
+                </SocialPill>
+                <SocialPill href="https://github.com/Sbector">
+                    <GithubIcon className="w-4 h-4" />Github
+                </SocialPill>
+            </nav>
+
         </div>
     )
 }
