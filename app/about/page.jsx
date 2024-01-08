@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import Curriculum from "../components/Curriculum";
+import SocialCard from "../components/SocialCard";
 import Wrapper from "../components/Wrapper";
 
 export default function AboutPage() {
@@ -37,6 +38,8 @@ export default function AboutPage() {
                     </div>
                 </div>
             </Wrapper>
+            <SocialCard></SocialCard>
+            
         </main>
     )
 }
