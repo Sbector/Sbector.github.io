@@ -48,7 +48,7 @@ export const Obras: Obra[] = [
         description: "video digital monocanal a color, 2:37 min (obra realizada en el colectivo DDO).",
         slug: "planet",
         imgsrc: "../../obras/planet.jpg",
-        imgalt: "Still de video de la obra planet",
+        imgalt: "still de video de la obra planet",
         iframesrc: "",
         appLink:""
     },
@@ -97,7 +97,7 @@ export const Obras: Obra[] = [
         year: "2018",
         description: "video digital monocanal a color, 4:22 min",
         slug: "inconspicuo2018",
-        imgsrc: "../../obras/inconspicuo2018.mp4",
+        imgsrc: "../../obras/inconspicuo2018.jpg",
         imgalt: "still de video de la obra inconspicuo en el paraninfo de la universidad de guadalajara",
         videosrc: "../../obras/inconspicuo2018.mp4",
         iframesrc: ""
